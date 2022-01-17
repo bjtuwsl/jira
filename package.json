@@ -26,7 +26,8 @@
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "react-app/jest",
+      "perttier"
     ]
   },
   "browserslist": {
@@ -47,6 +48,6 @@
     "prettier": "2.5.1"
   },
   "lint-staged": {
-    "*.{js,css,md}": "prettier --write"
+    "*.{js,css,md,tsx}": "prettier --write"
   }
 }
